@@ -6,23 +6,23 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Shiivanshi Mohapatra',
+    name: 'Shivanshi Mohapatra',
     title: 'BSc economics student |First Year',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    image: getAsset('images/profile.jpg'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'Economics student with a keen interest in data analytics and application in research.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Currently in first year at Christ University and a research intern at IISPPR.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Skilling in Excel , Power BI and Python.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
     tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    location: 'Kolkata, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Student – 1st year',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
@@ -51,9 +51,9 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Chriist University',
+      degree: 'Bsc Economics with Data Science',
+      year: '2025–2028',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
@@ -88,11 +88,11 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Research Intern',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
+      place: 'IISPPR',
       time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
+      desp: ['Policy research', 'Quantitative data analysis'],
     },
     {
       title: 'Previous Role',
@@ -148,9 +148,9 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
+    email: 'shivanshim07@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/shivanshi-mohapatra-3a6371315/',
+    github: 'https://github.com/Shivanshi4707/website',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
   },
