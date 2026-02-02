@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Shivanshi Mohapatra',
     title: 'BSc economics student |First Year',
-    image: getAsset('images/profile.jpg'), // Customize or replace with your profile image
+    image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
       'Economics student with a keen interest in data analytics and application in research.\n' +
       '\n' +
@@ -17,7 +17,7 @@ const siteConfig = {
       'Skilling in Excel , Power BI and Python.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
+    tagline: 'Undergraduate student.',
     location: 'Kolkata, India',
   },
 
